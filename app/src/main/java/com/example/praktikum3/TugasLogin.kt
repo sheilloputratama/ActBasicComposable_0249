@@ -63,3 +63,22 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
             )
 
             Spacer(modifier = Modifier.height(24.dp))
+
+            Image(
+                painter = logoUmy,
+                contentDescription = "Logo UMY",
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape)
+                    .background(Color.White),
+                contentScale = ContentScale.Fit
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Green
+            )
