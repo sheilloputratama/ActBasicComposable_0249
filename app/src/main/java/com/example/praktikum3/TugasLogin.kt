@@ -55,3 +55,11 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Yellow
             )
+
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 20.sp,
+                color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
