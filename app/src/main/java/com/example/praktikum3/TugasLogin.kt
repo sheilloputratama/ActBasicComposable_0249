@@ -22,3 +22,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.praktikum3.R
+
+@Composable
+fun UmyLoginScreen(modifier: Modifier = Modifier) {
+    val bgumy = painterResource(id = R.drawable.bgumy)
+    val logoUmy = painterResource(id = R.drawable.logoumy)
+    val fotosaya = painterResource(id = R.drawable.fotosaya)
