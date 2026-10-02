@@ -82,3 +82,39 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Green
             )
+
+            Text(
+                text = "Sheillo Agra Putratama",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+
+            Text(
+                text = "20240140249",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Box(
+                modifier = Modifier
+                    .size(255.dp)
+                    .clip(CircleShape)
+                    .background(Color(0xFFE8EAF6)),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = fotosaya,
+                    contentDescription = "FotoSaya",
+                    modifier = Modifier
+                        .size(250.dp)
+                        .clip(CircleShape),
+                    contentScale = ContentScale.Crop
+                )
+            }
+        }
+    }
+}
