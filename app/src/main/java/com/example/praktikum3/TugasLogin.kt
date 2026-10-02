@@ -28,3 +28,8 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
     val bgumy = painterResource(id = R.drawable.bgumy)
     val logoUmy = painterResource(id = R.drawable.logoumy)
     val fotosaya = painterResource(id = R.drawable.fotosaya)
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color.Black)
+    )
