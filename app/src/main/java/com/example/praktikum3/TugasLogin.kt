@@ -33,3 +33,11 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .background(Color.Black)
     )
+    {
+        Image(
+            painter = bgumy,
+            contentDescription = "Background umy",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop,
+            alpha = 0.5f
+        )
