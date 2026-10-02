@@ -41,3 +41,10 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             alpha = 0.5f
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 100.dp, start = 24.dp, end = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        )
