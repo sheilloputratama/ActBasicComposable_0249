@@ -48,3 +48,10 @@ fun UmyLoginScreen(modifier: Modifier = Modifier) {
                 .padding(top = 100.dp, start = 24.dp, end = 24.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         )
+        {
+            Text(
+                text = "Login",
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Yellow
+            )
